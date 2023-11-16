@@ -1,0 +1,37 @@
+.TH man 1 "16 NOVEMBER 2023" "0.1" "Simple Shell Manual page"
+
+NAME
+Simple_shell
+Simple_shell created to enable interaction with the linux operating system
+
+SYNOPSIS
+hsh [options] [file]
+
+DESCRIPTION
+Shell is a UNIX term for the interactive user interface, it is the layer of programming that understands and executes the user request(user command).In some systems the shell is usually called a command interpreter.
+
+OVERVIEW
+The simple shell is a command that reads line either from a terminal or a file, interprates them and executes other commands.It is the program that starts when the user logs into the system, it incorporates many features to aid interactive useand the advantage that the interpretative language is common to both interactive and non_interactive use, that is commands can be typed directly or can be put into a file which can be executed directly by the simple shell
+
+RETURN VALUE
+Always 0 on success, any other number may mean failure
+
+PATH SEARCH
+It will look inside all directions in PATH environment variable for an executable
+
+EXIT STATUS
+Terminates the shell, errors that are detected by the shell will cause it to exit with a not zero exit status.
+
+OPTIONS
+Simple_shell
+Command options will be typed after the main command followed by a space and a '-' symbol.
+
+EXAMPLE
+[command] [options]
+$ls-l
+
+BUGS
+Setuid shell scripts should be avoided at all costs, as they are a significant security risk.
+
+AUTHORS
+George Wairimu, Shanyce Jepchumba.
